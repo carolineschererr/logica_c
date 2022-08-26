@@ -1,0 +1,166 @@
+1 - Faça um programa que leia o código de origem de um produto e imprima a procedência, de acordo com a tabela:
+
+
+Codigo de origem - Procedencia
+1 - Sul
+2 - Norte
+3 - Leste
+4 - Oeste
+5 ou 6 - Nordeste
+7, 8, ou 9 - Sudeste
+10 a 12 - Centro-oeste
+21 a 22 - Noroeste
+
+
+O que o programa faz?
+lê código de origem
+imprime procedência
+
+Qual a saída?
+procedência
+
+Quais as variáveis?
+código
+
+Qual estrutura?
+SWITCH
+
+Passos para montar o código
+- declaração de variáveis
+- leitura do código
+- classificação na estrutura switch
+- imprimir classificação 
+
+
+
+-------------------------------------------
+
+
+2 - Calculadora: Ler a operação de acordo com o código. Ler dois operandos e imprimir o resultado.
+
+Código - Operação
+1 - Adição
+2 - Subtração
+3 - Divisão
+4 - Multiplicação
+
+
+O que o programa faz?
+
+lê operação de acordo com código
+lê dois operandos
+imprime o resultado
+
+Qual a saída?
+resultado da operação
+
+Quais variáveis preciso?
+codigo de operação
+dois operandos
+
+Quais passos?
+pedir dois operandos
+pedir operação
+fazer estrutura switch
+imprimir resultado
+
+Qual operação?
+switch
+
+Informações adicionais
+Código - Operação
+1 - Adição
+2 - Subtração
+3 - Divisão
+4 - Multiplicação
+
+
+-------------------------------------
+
+3 - O cardápio de uma lancheria é o seguinte:
+
+Código do lanche - Especificação - Preço unitário
+100 - Cachorro quente - 5,00
+101 - Bauru simples - 6,00
+102 - Bauru c/ovo - 8,00
+103 - Hamburger - 5,00
+104 - Cheeseburger - 7,50
+105 - Refrigerante - 2,00
+
+
+Escrever um programa que leia o código do item pedido, a quantidade e calcule o valor a ser pago por aquele lanche. Considere que a cada execução somente será calculado um item.
+
+
+
+O que faz o programa?
+lê código do item
+lê quantidade do item
+calcula valor a ser pago
+imprime valor a ser pago
+
+Quais variáveis preciso?
+codigo
+quantidade
+valor pago
+
+Quais passos na implementação?
+declarar variaveis
+imprimir tabela
+input de código
+input de quantidade
+cálculo do preço
+impressão do preço
+
+Qual estrutura?
+SWITCH
+
+Operação matemática?
+multiplicação
+
+Informações adicionais
+Tabela dos preços acima
+
+------------------------------------------------
+
+4 - Leia o salário atual do funcionário e código da função. De acordo com a tabela abaixo, indique o novo salário.
+
+Código - Cargo - Aumento
+1 - Escriturário - 30%
+2 - Secretário - 25%
+3 - Caixa - 20%
+4 - Gerente - 10%
+5 - Diretor - Sem aumento
+Indique uma mensagem de erro se o código não existir.
+
+O que o programa faz?
+lê salário do funcionário
+identifica função pelo código
+calcula o aumento
+calcula novo salário
+imprime novo salário
+
+Saída?
+novo salário
+mensagem de erro se codigo for inexistente
+
+Quais variáveis?
+salario
+aumento
+codigo
+novo salario
+
+Quais passos?
+pedir codigo
+pedir salario
+atribuir valor do aumento
+calcular novo salario
+imprimir novo salario
+
+Qual estrutura?
+SWITCH
+
+Qual cálculo?
+multiplicacao
+
+Informações adicionais
+Calcular de acordo com tabela do exercício.

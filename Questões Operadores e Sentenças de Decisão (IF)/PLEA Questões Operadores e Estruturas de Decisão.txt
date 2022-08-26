@@ -1,0 +1,170 @@
+1 - Leia 03 (três) notas de um aluno, calcule sua média. Caso a nota seja menor que 7 ele será reprovado. (ver exemplo: if-else)
+
+
+O que o programa faz?
+lê 3 notas do aluno
+calcula a média
+
+Qual a saída?
+media
+resultado (aprovado/reprovado)
+
+Quais variáveis?
+float p/ 3 notas, media
+
+
+Qual operações?
+soma (calculo da media)
+divisão (calculo da media)
+if
+else
+
+Informações adicionais
+se nota for menor que 7, é reprovado.
+
+
+-------------------------------------------
+
+2 - Leia 04 (quatro) notas de um aluno, a primeira tem peso 1, a segunda peso 2, a terceira peso 3, a quarta peso 4. Calcule a média e informe se o aluno foi aprovado ou não. Usar 'else'. Caso a nota seja menor que 7 ele será reprovado.
+
+O que o programa faz?
+lê 4 notas
+calcula media
+
+Qual a saída?
+aluno aprovado/reprovado
+
+Quais variáveis?
+float p/ 4 notas, media
+
+Quais operadores?
+if-else
+fórmula média ponderada
+
+Informações adicionais
+usar else
+se nota < 7, aluno reprovado
+peso das notas vai de (1-4), sentido (n1-n4)
+
+--------------------------------------------
+
+3 - Faça um programa que leia a média do aluno e seu numero de faltas. se as faltas forem maior ou igual a 5, escreva 'reprovado por faltas'. Se a média for menor que 7, foi reprovado por média. Senão, escreva 'Parabéns! você foi aprovado'.
+
+
+O que o programa faz?
+lê média do aluno
+lê número de faltas
+
+Qual a saída?
+se faltas forem maiores ou iguais a 5, escreve "reprovado por faltas"
+se media for menor que 7, escreve "reprovado por média"
+senão, escreve "parabéns, você foi aprovado".
+
+Quais variáveis?
+float p/ media
+integer p/ numero de faltas
+
+Operadores
+if-else
+
+Informações adicionais
+
+--------------------
+
+4 - Escreva um programa que, dada a idade de um nadador, classifique-o em uma das seguintes categorias:
+infantil A = 5 - 7 anos
+infantil B = 8-10 anos
+juvenil A = 11-13 anos
+juvenil B = 14-17 anos
+adulto = 18 anos ou mais
+(NÃO USAR SWITCH)
+
+O que o programa faz?
+recebe idade do nadador
+classifica em uma das 5 categorias
+
+Qual a saída?
+categoria
+
+Quais variáveis?
+integer p/ idade
+
+Informações adicionais
+não usar switch
+observar faixas de idade das categorias
+
+------------------------------------------
+
+5 - Escreva um algoritmo que leia 3 números inteiros e mostre o maior deles.
+
+O que o programa faz?
+lê 3 números
+informa o maior
+
+Qual a saída?
+número maior
+
+Quais variáveis?
+integer 3 números
+integer maior
+
+Quais operadores?
+comparação
+if-else
+
+-------------------------------------------
+
+6 - Faça um programa que leia um nº inteiro e mostre uma mensagem indicando se este número é par ou ímpar, e se é positivo ou negativo. Ex: 'O número 2 é par e é positivo'.
+
+O que o programa faz?
+lê número inteiro
+verifica se é par ou ímpar
+verifica se é positivo ou negativo
+
+Qual a saída?
+par/ímpar
+positivo/negativo
+
+Quais variáveis?
+integer p/ número
+
+Quais operadores?
+divisão
+comparativo
+
+Informações adicionais
+usar if-else
+
+
+-------------------------
+
+7 - Calcule o IMC. De acordo com (b), o IMC=peso em kilos dividido pela altura (em metros) ao quadrado.
+(a) http://como-emagrecer.com/calculo-de-imc.html
+(b) http://como-emagrecer.com/calculo-imc.html
+Leia a altura (em metros) e o peso em kilos de uma pessoa, calcule o IMC e indique a situação de acordo com a tabela em (a). (Abaixo do peso, peso ideal, sobrepeso, obesidade I, II, III)
+
+
+O que faz o programa?
+Calcula o IMC
+Informa a faixa de peso
+
+Qual a saída?
+Faixa de peso: abaixo do peso, peso ideal, sobrepeso, obesidade I, II, III.
+
+Quais variáveis?
+float peso, altura, imc;
+
+Qual fórmula?
+imc = peso/altura²
+
+Quais operadores?
+if-else
+
+Informações adicionais
+
+Abaixo de 18,5		Abaixo do peso ideal
+Entre 18,5 e 24,9	Parabéns — você está em seu peso normal!
+Entre 25,0 e 29,9	Você está acima de seu peso (sobrepeso)
+Entre 30,0 e 34,9	Obesidade grau I
+Entre 35,0 e 39,9	Obesidade grau II
+40,0 e acima		Obesidade grau III

@@ -1,0 +1,193 @@
+1 - Escreva um programa  que imprima na tela os números pares entre 1 e 20 de forma crescente. use o comando FOR.
+
+O que o programa faz?
+Imprime na tela números pares entre 1-20 de forma crescente.
+
+Quais variáveis?
+i para contador
+
+Saída?
+Imprimir na tela números pares entre 1 e 20 em ordem crescente.
+
+Qual estrutura?
+laço for
+
+Qual operação?
+%2==0
+
+Quais passos?
+definir contador
+laço for
+condicional if
+
+------------------------------
+
+2 - Escreva um programa que imprima na tela os números impares  entre 1 e 20 de forma decrescente. use o comando FOR.
+
+
+O que o programa faz? 
+Imprime números ímpares entre 1-20 de forma decrescente.
+
+Quais variáveis?
+i
+
+Qual estrutura?
+laço for
+condicional if
+
+Qual operação?
+%2!=0
+
+Quais passos?
+definir contador
+laço for
+condicional if
+
+--------------------------------
+
+3 - Escreva um programa que imprima na tela os números múltiplos de 3  entre 1 e 20 de forma crescente. use o comando WHILE.
+
+
+O que o programa faz?
+imprime na tela números múltiplos de 3 entre 1-20 em ordem crescente
+
+Quais variáveis?
+contador i
+
+Qual estrutura?
+laço while
+condicional if
+
+Qual operação?
+%3==0
+
+Quais passos?
+laço while
+condicional if
+
+------------------------------
+
+4 - Escreva um programa que imprima na tela os números múltiplos de 3  entre 1 e 20 de forma decrescente. use o comando DO WHILE.
+
+O que o programa faz?
+imprime números múltiplos de 3 entre 1-20 de forma decrescente
+
+Quais variáveis?
+contador i
+
+Qual estrutura?
+laço do while
+condicional if
+
+Qual operação?
+%3==0
+
+Quais passos?
+definir contador
+inicializar contador
+laço do while
+condicional if
+
+-------------------------------
+
+7 - A poupança rende 0,5% ao mês. Se eu depositar R$100 reais todos os meses, qual o valor que terei mês a mês em 2 ANOS?
+
+Ex:
+MES 1: 100,00
+MES 2: 200,50 (R$0,50 de juros + 100 de Deposito)
+MES 3: 301,5025 (1,0025 de juros + 100 de Deposito)
+***Não é necessário decompor o resultado.
+
+O que o programa faz?
+calcula o retorno da poupança em 2 anos
+imprime o resultado
+
+Quais variáveis?
+float rendimento
+	depósito mensal
+	montante
+
+int número de meses
+
+Qual cálculo matemático?
+juros compostos
+
+Qual operador?
+laço for
+
+---------------------------------
+
+8 - O cardápio de uma lancheria é o seguinte:
+Código do lanche - Especificação - Preço unitário
+100 - Cachorro quente - 11,00
+101 - Bauru simples - 13,00 
+102 - Bauru c/ovo - 15,00
+103 - Hamburger - 11,00
+104 - Cheeseburger - 13,00
+105 - Refrigerante - 3,00
+
+Escrever um programa que leia o código do item pedido, a quantidade e calcule o valor a ser pago por aquele lanche. Os itens serão lidos até que seja incluído um código inválido, encerrando o pedido. Ao final, escreva o valor total do pedido.
+
+
+O que o programa faz?
+lê código do item
+lê quantidade
+calcula valor a ser pago
+repetir até que se digite código inválido
+ao final, informar valor total
+
+
+Quais variáveis?
+int código
+int quantidade
+int total
+
+Quais passos?
+definir variáveis
+laço while
+cálculo
+impressão
+
+-----------------------------
+
+9 - Em uma eleição presidencial existem três candidatos. Os votos são informados  através de códigos. Os dados utilizados para a contagem dos votos obedecem à seguinte codificação:
+
+Código - Nome/Rótulo
+1 - Zezinho
+2 - Huguinho
+3 - Luizinho
+4 - Voto em Branco
+5 - Voto Nulo
+
+Escreva um programa com as seguintes características:
+
+- ler uma sequencia de votos até que o código de candidato seja igual a 0 (zero)
+- o programa finaliza quando o candidato digitado é igual a 0 (zero)
+- apresente o resultado de apuração dos votos:
+   -- total de votos para cada candidato;
+   -- total de votos nulos;
+   -- total de votos em branco;
+   -- candidato vencedor;
+
+
+O que o programa faz?
+lê votos de 3 candidatos, brancos e nulos
+encerra no comando 0
+
+Quais variáveis?
+total de votos
+votos por candidato
+votos nulos
+votos em branco
+candidato vencedor
+contador
+
+Qual estrutura?
+do-while
+switch
+
+Qual saída?
+   -- total de votos para cada candidato;
+   -- total de votos nulos;
+   -- total de votos em branco;
+   -- candidato vencedor.

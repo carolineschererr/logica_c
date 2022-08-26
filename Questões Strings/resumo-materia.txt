@@ -1,0 +1,125 @@
+Strings - Textos na Linguagem C
+
+Atribuindo um valor com scanf usando tamanho explícito de limite
+- Alocação fixa de memória
+
+Exemplo:
+char nome[100];
+	printf ("\nDigite seu Nome: ");
+	scanf ("%s",nome); // Nome digitado: Maria Silva  //scanf só captura a 1ª palavra
+	printf ("\nO nome informado foi: %s", nome);
+
+Saída:
+O nome informado foi: Maria
+
+
+
+
+A instrução gets
+
+
+A instrução gets é usada em C para ler entradas String, ou seja: palavras, frases ou conjuntos de números com os quais não se realizará NENHUMA OPERAÇÃO MATEMÁTICA. //mas pode realizar operação lógica
+
+Sintaxe:
+gets(variável); 
+Onde:
+<variável> nome da variável do tipo texto
+Exemplo:
+gets(nome);
+
+
+Atribuindo um valor com gets usando tamanho explícito de limite
+Alocação fixa de memória
+
+Exemplo:
+char nome[100];
+	printf ("\nDigite seu Nome: ");
+	gets (nome); // Nome digitado: Maria Silva 
+	printf ("\nO nome informado foi: %s", nome);
+Saída:
+O nome informado foi: Maria Silva
+
+
+
+
+A instrução getchar
+
+A instrução getchar é usada em C para ler um caractere, ou seja, uma uma única Letra.
+ 
+Sintaxe:
+variável = getchar();
+Onde:
+<variável> nome da variável do tipo texto
+Exemplo:
+char inicial;
+printf ("\nDigite a letra inicial do seu Nome: ");
+inicial = getchar(); // Letra digitada: M 
+printf ("\nA inicial do seu Nome é: %c", inicial);
+Saída:
+A inicial do seu Nome é: M
+
+
+
+A instrução puts
+
+A instrução puts significa "put string" (colocar string), é utilizada para "colocar" uma string na saída de dados, ou seja: palavras, frases e caracteres //é uma especie de printf das strings
+Sintaxe:
+puts(variável); 
+Onde:
+<variável> nome da variável do tipo texto
+Exemplo:
+puts(nome);
+
+
+
+A instrução putchar
+
+A instrução putchar significa "put caractere" (colocar um caractere), é utilizada para "colocar" um  caractere na saída de dados, ou seja: uma letra. //é uma especie de printf dos caracteres
+Sintaxe:
+putchar(variável); 
+Onde:
+<variável> nome da variável do tipo caractere
+Exemplo:
+putchar(nome);
+
+
+
+Tamanho da String  sizeof e strlen
+
+Exemplo 1:
+char nomeCompleto[100] = "Maria Silva";
+int tamanhoDaString = strlen(nomeCompleto);
+int tamanhoDaVariavel = sizeof(nomeCompleto);
+printf ("\nNome Completo: %s", nomeCompleto); 
+printf ("\nTamanho da String: %d", tamanhoDaString); 
+printf ("\nTamanho da Variável: %d", tamanhoDaVariavel);
+
+
+//strlen vai dar o tamanho da string
+//sizeof vai dar o tamanho da variável, que já foi definida pelo numero 100 (alocação fixa de memória)
+
+
+Exemplo 2:
+char nomeCompleto[] = "Maria Silva";
+int tamanhoDaString = strlen(nomeCompleto);
+int tamanhoDaVariavel = sizeof(nomeCompleto);
+printf ("\nNome Completo: %s", nomeCompleto); 
+printf ("\nTamanho da String: %d", tamanhoDaString); 
+printf ("\nTamanho da Variável: %d", tamanhoDaVariavel); 
+
+//strlen vai dar o tamanho da string
+//sizeof vai dar o tamanho da variável, que vai ser tamanho da string+1 (pois em C há o "/0" que encerra a string e é armazenado como local de memoria)
+
+
+
+Manipulando Strings
+
+Para manipulação de Strings a Linguagem C conta com a biblioteca string.h com um conjunto de funções para exame e manipulação de textos:
+strcpy – copia o conteúdo de uma string para outra e coloca um terminador de string
+strcmp – utilizado para comparar ordem alfabética da primeira com a segunda String. Retorna um inteiro -1 se a string1 for menor, 1 se a string1 for maior e 0 se forem iguais.
+strcat – adiciona o conteúdo da segunda ao final da primeira String
+
+Sintaxes:
+strcpy (destino, origem);
+strcmp (string1, string2);
+strcat (string1, string2);
